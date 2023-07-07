@@ -1,0 +1,67 @@
+body {
+    background-color: blueviolet;
+}
+
+p {
+    color: orange;
+}
+
+.Picture1_Man {
+    /* Setting the size of the image */
+    width: 200px;
+    height: auto;
+
+    /* Making the image round */
+    border-radius: 50%;
+
+    /* Adding a border to the image */
+    border: 10px solid black;
+}
+
+.Webpage_Heading{
+    /* Changing the Heading font*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.backToTopLink, .Link1, .Link2{
+    font-size: 60px;
+    color: blue; 
+}
+
+.Ordered_List1, .Unordered_List1{
+    /*Changing the colour of the lists*/
+    color: aqua;
+}
+
+.PPcontainer {
+    width: 300px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    padding: 100px;
+    background-color: orange;
+}
+  
+.PPtitle {
+    text-align: center;
+    color: aqua;
+}
+  
+.PPcontent {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    color: aqua;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto auto; 
+    gap: 10px; 
+}
+  
+.item {
+    color: aqua;
+    background-color: orange;
+    padding: 20px;
+}
